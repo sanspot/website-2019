@@ -1,0 +1,42 @@
+{
+  "parallax":{
+    "digiwise":"digiwise",
+    "digital-migration":"digital-migration",
+    "customer-activation":"customer-activation"
+  },
+  "digiwiseRole": {
+    "role":"User testing <br/> UX Design <br/> UI Design"
+  },
+
+  "digiwise":{
+    "colour":"digiwise",
+    "title":"Designing an MVP for a new web service",
+    "body":"This was one of the first MVP I had the chance to design from scratch. Initally part of a small product team, my responsibility  revolved around concepts ideation and prototyping.<br/>The project later moved from prototyping to building the MVP. From this point on I became the lead designer and worked on the visual aspects of the product as well as working in parallel with the developer building the service. "
+  },
+
+
+  "digitalRole": {
+    "role":"User observation <br/> User testing <br/> Design"
+  },
+  "digital-migration":{
+    "colour":"digital-migration",
+    "title":"Helping a bank migrate customers from offline to online",
+    "body":"I was part of a team that helped an international bank shape a strategy to migrate their in-branch customers to digital channels.<br/><br/>Over a 2 weeks period we conducted rounds of user research to identify the barriers to digital adoption.<br/>We then run four one week sprints to design, build and test different solution adressing the many obstacle that stopped milllions of customers from using digital banking."
+  },
+
+
+  "customerRole": {
+    "role":"Research <br/> Design"
+  },
+  "customer-activation":{
+    "colour":"customer-activation",
+    "title":"Designing the ideal customer activation",
+    "body":"Working as consultant means you see al lot of good things done badly. One of the things I have seen done wrong more often than not is having a solid strategy to attract, onboard and retain your average user.<br /><br /> Developed as an internal project for Adaptive Lab, Customer Activation was our answer to all the common mistakes we saw around.<br /> Each designer in the team had the responsability of designing  the end to end flow of activating a customer for a specific sector. I chose a financial service."
+  },
+
+  "typeOfProject": {
+    "typeOfProject-digital":"Service design sprint",
+    "typeOfProject-customer":"Internal project",
+    "typeOfProject-digiwise":"Design sprint"
+  }
+}

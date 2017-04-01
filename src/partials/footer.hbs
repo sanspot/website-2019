@@ -1,0 +1,98 @@
+{{#unlesspage 'home'}}
+  <div class="row footer-wrapper">
+    <div class="columns small-12 medium-4">
+      <div class="row">
+        <div class="columns small-12 medium-expand">
+          <h6 class="section-title"><span>Say Hello</span></h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns small-12 medium-expand contact">
+          <h2><span class="opacity">Like what you see? Don't be shy </span><span><a href="mailto:hello@sandromacchioli.com">contact me</a></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="columns small-12 medium-expand">
+      {{#ifpage 'digital-migration'}}
+      {{#with footer.nextProject-button}}
+      <a href="http://sandromacchioli.com/customer-activation.html" class="button footer projects linkTo {{nextProject-color-customer}}">
+      {{/with}}
+      {{/ifpage}}
+      {{#ifpage 'customer-activation'}}
+      {{#with footer.nextProject-button}}
+      <a href="http://sandromacchioli.com/digiwise.html" class="button footer projects linkTo {{nextProject-color-digiwise}}">
+      {{/with}}
+      {{/ifpage}}
+      {{#ifpage 'digiwise'}}
+      {{#with footer.nextProject-button}}
+      <a href="http://sandromacchioli.com/digital-migration.html" class="button footer projects linkTo {{nextProject-color-digital}}">
+      {{/with}}
+      {{/ifpage}}
+      {{#ifpage 'citymapper'}}
+      {{#with footer.nextProject-button}}
+      <a href="http://sandromacchioli.com/digital-migration.html" class="button footer projects linkTo {{nextProject-color-digital}}">
+      {{/with}}
+      {{/ifpage}}
+        <div class="row">
+          <div class="columns small-12 medium-expand">
+            <h6 class="section-title"><span>Next project</span></h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns small-12 medium-expand">
+            {{#ifpage 'digital-migration'}}
+            {{#with footer.nextProject-button}}
+            <h2>{{nextProject-text-customer}}</h2>
+            {{/with}}
+            {{/ifpage}}
+            {{#ifpage 'customer-activation'}}
+            {{#with footer.nextProject-button}}
+            <h2>{{nextProject-text-digiwise}}</h2>
+            {{/with}}
+            {{/ifpage}}
+            {{#ifpage 'digiwise'}}
+            {{#with footer.nextProject-button}}
+            <h2>{{nextProject-text-digital}}</h2>
+            {{/with}}
+            {{/ifpage}}
+            {{#ifpage 'citymapper'}}
+            {{#with footer.nextProject-button}}
+            <h2>{{nextProject-text-digital}}</h2>
+            {{/with}}
+            {{/ifpage}}
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="columns small-12 medium-1 align-self-middle">
+      <a href="#" class="button footer up">
+        <div class="row">
+          <div class="small-12 medium-expand">
+            <svg width="15px" height="19px" viewBox="1111 1002 15 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Group-19-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1118.500000, 1011.500000) rotate(-270.000000) translate(-1118.500000, -1011.500000) translate(1110.000000, 1005.000000)" stroke-linecap="round">
+                    <polyline id="Path-3" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round" points="6 -2.27373675e-13 0 4 6 8"></polyline>
+                    <path d="M0,4 L13,4 C13,4 17,4 17,7 L17,12.5" id="Path-4" stroke="#FFFFFF" stroke-width="1.5"></path>
+                </g>
+            </svg>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 medium-expand">
+            <h5>Up</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  {{/unlesspage}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

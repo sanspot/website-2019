@@ -1,0 +1,1009 @@
+// Custom CSS
+// ----------
+// 1. Global
+// 2. Typography
+// 3. Styling
+// 4. Animations and Images
+
+
+//////////////////////////////////////////////////////////////// 1. Global
+//////////////////////////////////////////////////////////////// ---------
+$px8:.5rem;
+$px16:1rem;
+$px32:2rem;
+$px48:3rem;
+$px64:4rem;
+$px80:5rem;
+
+// Colors
+$digital-migration-primary: #444FCF;
+$digital-migration-secondary: #2A318D;
+$digiwise-primary: #FFA300;
+$digiwise-secondary:#FDF6E8;
+$dark-grey: #4A4A4A;
+$customer-primary:#00B1C8;
+$customer-secondary:#00606D;
+
+$homepage-grey:#272727;
+
+// Paddings
+
+section {
+  padding: 8% 5%;
+}
+
+section.noPad {
+  padding: 0 5%;
+}
+
+.pad-bottom {
+  padding: 0 0 3% 0;
+}
+
+.pad-top {
+  padding: 3% 0 0 0;
+}
+
+.push-down {
+  margin-bottom: 10%;
+}
+
+section.color-section-secondary.digiwise#magnify {
+  padding-bottom: 0;
+}
+
+section.end-of-page div.columns.align-bottom {
+  margin: $px80 0;
+
+}
+
+section#activate {
+  padding: 8% 10% 0 10%;
+}
+
+//////////////////////////////////////////////////////////////// 2. Typography
+//////////////////////////////////////////////////////////////// -------------
+$body-font-family: 'Source Sans Pro', Helvetica, Roboto, Arial, sans-serif;
+$secondary-font-family: 'Inconsolata', monospace;
+$raleway: 'Raleway', sans-serif;
+$header-font-family: $body-font-family;
+$extrabold: 900;
+$bold: 700;
+$semibold: 600;
+$regular: 400;
+
+body {
+  font-family: $body-font-family;
+  font-weight: $regular;
+  color: $dark-grey;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-bottom: 1%;
+  line-height: 1.8rem;
+  color: $dark-grey;
+  margin:0;
+}
+
+h1  {
+  font-family: $body-font-family;
+  font-size: 1.5rem;
+  font-weight: $bold;
+
+}
+
+h2 {
+  font-family: $body-font-family;
+  font-size: 1.125rem;
+  font-weight: $bold;
+}
+
+h3 {
+  font-family: $body-font-family;
+  font-size: .875rem;
+  font-weight: $semibold;
+}
+
+h4 {
+  font-family: $body-font-family;
+  font-size: .875rem;
+  font-weight: $regular;
+}
+
+h5 {
+  font-family: $secondary-font-family;
+  font-size: 1rem;
+  letter-spacing: .12rem;
+  font-weight: $regular;
+  text-transform:uppercase;
+}
+
+h6 {
+  font-family: $secondary-font-family;
+  font-size: .75rem;
+  letter-spacing: 0.17rem;
+  font-weight: $regular;
+  text-transform:uppercase;
+}
+
+div.customer a {
+  color:$customer-primary;
+}
+
+.color-text.digital-migration-primary h1{
+  color: $digital-migration-primary;
+  font-weight: $extrabold;
+  font-size: 1.625rem;
+}
+
+.color-text.customer-primary h1 {
+  color: $customer-primary;
+  font-weight: $extrabold;
+  font-size: 1.625rem;
+}
+
+section.homepage div.columns.homepage {
+  max-width: 20%;
+}
+
+section.homepage div.columns a.homepage {
+  text-align: right;
+}
+
+section.homepage h1,
+section.homepage h2,
+section.homepage h5,
+section.homepage h6,
+section.homepage a,
+section.homepage p {
+  color: white;
+}
+
+section.color-section-primary h1,
+section.color-section-primary h2,
+section.color-section-primary h3,
+section.color-section-primary h5,
+section.color-section-primary h6,
+section.color-section-primary p,
+section.color-section-secondary h1,
+section.color-section-secondary h2,
+section.color-section-secondary h3,
+section.color-section-secondary h5,
+section.color-section-secondary h6,
+section.color-section-secondary p,
+{
+  color: white;
+}
+
+section.color-section-secondary.digiwise div.interactive.wow.shake h6 {
+  color: $dark-grey;
+}
+
+section.color-section-secondary.digital {
+  padding: 8% 5% 0 5%;
+}
+
+section.color-section-secondary.digital h1,
+section.color-section-secondary.digital h2 {
+  text-align: center;
+}
+
+section.color-section-secondary.digital h1 {
+  font-size: 4rem;
+  margin-bottom: $px32;
+}
+
+section.color-section-secondary.digital h2 {
+  margin-bottom: 12%;
+}
+
+
+section.color-section-secondary.digiwise h1,
+section.color-section-secondary.digiwise p {
+  color:$dark-grey;
+}
+
+
+
+
+// ---- HOME
+//----------
+
+h1.home-intro  {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h1.home-intro span,
+p.home-intro  {
+  opacity: .5;
+}
+
+h2.home-intro  {
+  font-size: 1.5rem;
+}
+
+ul.findMe {
+  margin: 0;
+  opacity: .5;
+}
+
+.home-intro ul.findMe li {
+  margin-right: 2.5rem;
+}
+
+.home-intro ul.findMe li,
+.home-intro ul.findMe li span,
+ul {
+  list-style-type: none;
+  position: relative;
+  display: inline-block;
+}
+
+.home-intro ul.findMe li span:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 3px;
+  width: 20px;
+  right: 100%;
+  margin: 10px 10px 0 0;
+  background-color: $dark-grey;
+}
+
+//projects Home links
+a.button.projets.home,
+a.button.projects.home h2,
+a.button.projects.home h6 {
+  display: block;
+  text-align: left;
+}
+
+a.button.projects.home {
+  width: 100%;
+}
+
+a.button.projects.home div.projects{
+  padding: 0;
+}
+a.button.projects.home div.projects h2.home-intro,
+a.button.projects.home div.projects h6{
+  padding-bottom: 0;
+}
+
+div a.button.home.linkTo.digital,
+div a.button.home.linkTo.customer,
+div a.button.home.linkTo.digiwise {
+  background-color: rgba(39,39,39,0);
+}
+
+div a.button.home.linkTo.digital:hover {
+  background-color: rgba(42,49,141,.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+div a.button.home.linkTo.customer:hover {
+  background-color: rgba(0,96,109,.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+div a.button.home.linkTo.digiwise:hover {
+  background-color: rgba(189,80,22,.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+// ---- INTRO-BOX
+//----------
+.intro-box div.role {
+  margin-top: 5%;
+}
+.intro-box div.role h5,
+.intro-box div.role h4 {
+  color: white;
+  padding: 0;
+}
+
+//Add padding to the header and make sure text renders white
+div.intro-box h1 {
+  padding-bottom: 2%;
+}
+
+div.intro-box h1,
+div.intro-box p {
+  color: $white;
+ }
+
+ div.columns.large-offset-2 {
+   padding-right: 0;
+ }
+
+h6.section-title {
+  position: relative;
+  left: 2rem;
+}
+
+section.color-section-secondary#magnify h6.section-title {
+  color: $dark-grey;
+}
+
+h6.section-title span {
+  display: inline-block;
+  position: relative;
+}
+
+h6.section-title span:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 3px;
+  width: 20px;
+  right: 100%;
+  margin: 10px 10px 0 0;
+  background-color: $dark-grey;
+}
+
+section.color-section-primary h6.section-title span:before,
+section.homepage h6.section-title span:before,
+section.homepage ul.findMe li h5 a span:before,
+ {
+  background-color: white;
+  color: white;
+}
+
+
+section.color-section-primary h6.section-title {
+  color: white;
+}
+//////////////////////////////////////////////////////////////// 3. Pages styling
+//////////////////////////////////////////////////////////////// ---------
+section.nav {
+  position: absolute;
+  width: 100%;
+  padding: 8% 5%;
+}
+
+section.nav a.button div.back h5 {
+  color: white;
+}
+
+section.nav a.button div.back,
+section.nav a.button div.icon {
+  padding: 0 4% 0 0;
+}
+
+section.nav a.button.customer {
+  background-color: $customer-primary;
+}
+
+section.nav a.button.digital {
+  background-color: $digital-migration-primary;
+}
+
+section.nav a.button.digiwise {
+  background-color: $digiwise-primary;
+}
+
+
+section.nav a.button.customer:hover{
+  background-color: rgba(0,96,109,.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+section.nav a.button.digital:hover{
+  background-color: rgba(42,49,141,.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+section.nav a.button.digiwise:hover{
+  background-color: rgba(189,80,22,.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+
+section.homepage {
+  padding: 0;
+  background-color: $homepage-grey;
+}
+
+//Project link
+section.homepage.isActive {
+  background-color: #272727;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+section.homepage.digital.isActive {
+  background-color: $digital-migration-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+section.homepage.customer.isActive {
+  background-color: $customer-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+section.homepage.digiwise {
+  background-color: $digiwise-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+.intro-box {
+  position: relative;
+  margin-top: -22rem;
+  color: white;
+  padding:5%;
+  box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.20);
+  top: 0;
+}
+
+
+div.intro-box div.columns.small-12.large-10 {
+  margin-right: 1.875rem;
+}
+
+.intro-box#digital-migration{
+  @extend .intro-box;
+  background-color: $digital-migration-primary;
+}
+
+.intro-box#digiwise{
+  @extend .intro-box;
+  background-color: $digiwise-primary;
+}
+
+.intro-box#customer-activation{
+  @extend .intro-box;
+  background-color: $customer-primary;
+}
+
+.color-section-primary.digiwise {
+  background-color: $digiwise-primary;
+}
+
+.color-section-secondary.digiwise {
+  background-color: $digiwise-secondary;
+}
+
+
+.color-section-primary.digital {
+  background-color: $digital-migration-primary;
+}
+
+.color-section-secondary.digital {
+  background-color: $digital-migration-secondary;
+}
+
+
+.color-section-primary.customer {
+  background-color: $customer-primary;
+}
+
+.color-section-secondary.customer {
+  background-color: $customer-secondary;
+}
+
+
+//digiwise TYPOGRAPHY
+div.brand-color {
+  text-align: center;
+}
+
+div.brand-color div {
+  display: block;
+  margin: auto;
+}
+
+.Raleway {
+  font-family: $raleway;
+  font-weight: normal;
+}
+
+h1.typography-header {
+  font-size: $px32;
+  padding-bottom: 2%;
+}
+
+.typography-sample {
+  font-size: 1.375rem;
+  color: #9B9B9B;
+}
+
+span.typography-numbers {
+  letter-spacing: .2rem;
+}
+
+span.px40,
+h1.px40 {
+  font-size: 2.5rem;
+}
+
+.regular {
+  font-weight: $regular;
+}
+
+h1.typography-header.px24 {
+  font-size: 1.5rem;
+}
+
+span.hover.digiwise {
+  background-color: $digiwise-primary;
+  color: $digiwise-primary
+}
+
+span.hover.digiwise:hover,
+span.hover.digiwise:focus {
+  background-color: white;
+  color: $dark-grey;
+}
+
+.row.footer-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  min-width: 100%;
+  background-color: $homepage-grey;
+  padding: 5% 10% 0 10%;
+}
+
+.row.footer-wrapper div.contact {
+  padding-bottom: 6%;
+}
+
+.row.footer-wrapper h6,
+.row.footer-wrapper h2 {
+  color: white;
+}
+.row.footer-wrapper h6 span:before {
+  background-color: white;
+}
+
+div.row.footer-wrapper h2 span.opacity {
+  opacity: .6;
+}
+div.row.footer-wrapper h2 a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+}
+
+a.button.footer.projects {
+  width: 100%;
+  text-align: left;
+  display: block;
+  background-color: #141313;
+}
+
+a.button.footer.projects.linkTo.digiwise:hover {
+  background-color: $digiwise-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+a.button.footer.projects.linkTo.customer:hover {
+  background-color: $customer-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+a.button.footer.projects.linkTo.digital:hover {
+  background-color: $digital-migration-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+
+a.button.footer.up{
+  background-color: $homepage-grey;
+  width: 100%;
+}
+
+a.button.footer.up h5 {
+  color: white;
+}
+
+div.interactive h6 {
+  text-align: right;
+  padding: 0;
+}
+div.interactive {
+  padding: 0;
+}
+
+//////////////////////////////////////////////////////////////// 4. ANIMATIONS AND IMAGES
+//////////////////////////////////////////////////////////////// ---------
+// Parallax
+.parallax {
+  /* Set a specific height */
+  height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax#digital-migration{
+  background-image: url("../assets/BRC-parallax.jpg");
+}
+.parallax#digiwise{
+  background-image: url("../assets/EXP-parallax.jpg");
+  background-position: center;
+}
+
+.parallax#customer-activation{
+  background-image: url("../assets/ACT-parallax.jpg");
+  background-position: center;
+}
+
+.glass,
+.glass:focus {
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: crosshair;
+
+  /* Multiple box shadows to achieve the glass effect */
+  box-shadow:
+    0 0 0 2px rgba(255,163,0, 0.85),
+    0 0 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.15);
+    background-image: url("http://sandromacchioli.com/assets/EXP-magnify-grey.png");
+
+  /* hide the glass by default */
+  display: none;
+}
+
+.frame {
+  width: 100%;
+  height:275px;
+}
+
+.slidee {
+  margin: 1rem;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.frame .slidee li {
+  margin-right: 5rem;
+  float: left;
+  width: 210px;
+  height: 100%
+}
+
+div.card {
+  padding: 8%;
+  background: white;
+  width: 270px;
+  height: 190px;
+  box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.10);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+div.card h2,
+div.card p {
+  color: $dark-grey !important;
+}
+// Section styling
+section#grid {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/EXP-grid.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 70%;
+}
+
+//white background for text on top of grid
+section#grid div.columns.small-12.medium-6 {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+section#magnify img {
+  //max-height: 46rem;
+  width: 100%;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+img#redirect {
+  max-width: 17.5rem;
+  box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.20);
+}
+
+//Images styling
+img,
+svg {
+  display: block;
+  margin: auto;
+}
+img.gif{
+  max-height: 24rem;
+  display: block;
+  margin: auto;
+}
+
+img.dropshadow {
+  max-width: 17.5rem;
+  height: auto;
+  box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.20);
+}
+
+//Drawing
+div.trigger {
+  position: fixed;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 4.375rem;
+	height: 4.375rem;
+  padding-bottom: 2%;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.22);
+}
+
+.circle.dark-blue{
+  background-color: #054163;
+  border: 1px solid #04324C;
+}
+
+.circle.primary-blue{
+  background-color: #0D68A0;
+  border: 1px solid #0B5684;
+}
+
+.circle.light-grey{
+  background-color: #F1F1EE;
+  border: 1px solid #DDDDD9;
+}
+
+.circle.dark-grey{
+  background-color: #5C5C5C;
+  border: 1px solid #807E7E;
+}
+
+.circle.orange{
+  background-color: $digiwise-primary;
+  border: 1px solid #D79B26;
+}
+
+.circle.green{
+  background-color: #91DC7B;
+  border: 1px solid #82C76E;
+}
+
+div.marvel-device div.screen {
+  overflow: hidden;
+}
+
+.wrapper {
+  transform: scale(.7);
+  margin-top: -8rem;
+}
+
+iframe {
+  margin-left: -2.54rem;
+}
+
+.container.iphone5c.digiwise {
+  position: relative;
+  transform: scale(.8);
+  top: 75px;
+  left: 8rem;
+}
+
+.container.ipad.digiwise {
+  position: relative;
+  z-index: 2;
+}
+
+.container.signup {
+  position: relative;
+  left: .3125rem;
+}
+
+//correct mistake in marvel-device
+div.marvel-device div.top-bar {
+  width: 0;
+}
+
+.marvel-device.iphone5s.silver div.camera,
+.marvel-device.iphone5s.silver div.sensor,
+.marvel-device.iphone5s.silver div.speaker  {
+  background: #e8e8e8;
+}
+
+
+//SVG
+div.columns.digiwise-icon svg {
+  display: flex;
+  margin: 2rem 2rem;
+}
+
+svg#ACT-ABank-logo {
+  margin: 0 0 $px16 0;
+}
+
+svg.customer-line {
+  display: block;
+  margin: auto;
+}
+
+@-webkit-keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(2px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(2px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+div.interactive.wow.shake {
+   -webkit-animation-delay: 2s;
+}
+
+
+
+//////////////////////////////////////////////////////////////// CITYMAPPER STUFF
+//////////////////////////////////////////////////////////////// ---------
+$citymapper-primary:#37AB2F;
+$citymapper-secondary:#2E9027;
+$citymapper-tertiary:#1B5617;
+
+div.citymapper-wrapper {
+  background-color:$citymapper-primary;
+  padding: 5% 0;
+}
+
+div.citymapper-wrapper h2,
+div.citymapper-wrapper p, {
+  color: $citymapper-tertiary;
+}
+
+div.citymapper-wrapper h6 {
+  color: white;
+}
+
+div.citymapper-wrapper h6 span::before {
+  background-color: white;
+}
+
+
+div.row.citymapper-primary {
+  background-color:$citymapper-primary;
+}
+
+div.row.citymapper-primary div.push {
+  margin-right: 2%;
+}
+
+div.columns.citymapper-secondary {
+  background-color:$citymapper-secondary;
+}
+
+div.row.green-block {
+  border-radius: 16px;
+  background: #2E9027;
+  padding: .6rem;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+div.green-block h2,
+div.green-block p {
+  color: white;
+}
+
+section.citymapperIcons {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+section.citymapperIcons svg{
+  display: block;
+  margin: 0;
+}
+
+svg#pointThingy {
+  position: relative;
+  left:60%;
+  top:-4rem;
+}
+
+div.columns.separator {
+  display: block;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+img.citymapperImages {
+  padding-top: 5%;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}

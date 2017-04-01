@@ -1,0 +1,10 @@
+{
+  "nextProject-button":{
+    "nextProject-color-customer":"customer",
+    "nextProject-text-customer":"Customer activation",
+    "nextProject-color-digiwise":"experian",
+    "nextProject-text-digiwise":"Digiwise",
+    "nextProject-color-digital":"digital",
+    "nextProject-text-digital":"Digital migration"
+  }
+}
