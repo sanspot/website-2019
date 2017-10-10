@@ -16,13 +16,16 @@ $px64:4rem;
 $px80:5rem;
 
 // Colors
+$customer-primary:#00B1C8;
+$customer-secondary:#00606D;
 $digital-migration-primary: #444FCF;
 $digital-migration-secondary: #2A318D;
 $digiwise-primary: #FFA300;
 $digiwise-secondary:#FDF6E8;
 $dark-grey: #4A4A4A;
-$customer-primary:#00B1C8;
-$customer-secondary:#00606D;
+$quantSelf-primary: #2F524C;
+$quantSelf-secondary: #E00C18;
+
 
 $homepage-grey:#272727;
 
@@ -136,6 +139,10 @@ div.customer a {
   color:$customer-primary;
 }
 
+div.quantSelf a {
+  color:$quantSelf-secondary;
+}
+
 .color-text.digital-migration-primary h1{
   color: $digital-migration-primary;
   font-weight: $extrabold;
@@ -144,6 +151,12 @@ div.customer a {
 
 .color-text.customer-primary h1 {
   color: $customer-primary;
+  font-weight: $extrabold;
+  font-size: 1.625rem;
+}
+
+.color-text.quantSelf-primary h1 {
+  color: $quantSelf-primary;
   font-weight: $extrabold;
   font-size: 1.625rem;
 }
@@ -489,6 +502,11 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $customer-primary;
 }
 
+.intro-box#quantSelf{
+  @extend .intro-box;
+  background-color: $quantSelf-primary;
+}
+
 .color-section-primary.digiwise {
   background-color: $digiwise-primary;
 }
@@ -515,6 +533,9 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $customer-secondary;
 }
 
+.color-section-primary.quantSelf {
+  background-color: $quantSelf-primary;
+}
 
 //digiwise TYPOGRAPHY
 div.brand-color {
@@ -675,6 +696,11 @@ div.interactive {
 
 .parallax#customer-activation{
   background-image: url("../assets/ACT-parallax.jpg");
+  background-position: center;
+}
+
+.parallax#quantSelf{
+  background-image: url("../assets/QNT-parallax.png");
   background-position: center;
 }
 

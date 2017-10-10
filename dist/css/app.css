@@ -4164,6 +4164,9 @@ h6 {
 div.customer a {
   color: #00B1C8; }
 
+div.quantSelf a {
+  color: #E00C18; }
+
 .color-text.digital-migration-primary h1 {
   color: #444FCF;
   font-weight: 900;
@@ -4171,6 +4174,11 @@ div.customer a {
 
 .color-text.customer-primary h1 {
   color: #00B1C8;
+  font-weight: 900;
+  font-size: 1.625rem; }
+
+.color-text.quantSelf-primary h1 {
+  color: #2F524C;
   font-weight: 900;
   font-size: 1.625rem; }
 
@@ -4297,19 +4305,19 @@ div a.button.home.linkTo.digiwise:hover {
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out; }
 
-.intro-box div.role, .intro-box#digital-migration div.role, .intro-box#digiwise div.role, .intro-box#customer-activation div.role {
+.intro-box div.role, .intro-box#digital-migration div.role, .intro-box#digiwise div.role, .intro-box#customer-activation div.role, .intro-box#quantSelf div.role {
   margin-top: 5%; }
 
-.intro-box div.role h5, .intro-box#digital-migration div.role h5, .intro-box#digiwise div.role h5, .intro-box#customer-activation div.role h5,
-.intro-box div.role h4, .intro-box#digital-migration div.role h4, .intro-box#digiwise div.role h4, .intro-box#customer-activation div.role h4 {
+.intro-box div.role h5, .intro-box#digital-migration div.role h5, .intro-box#digiwise div.role h5, .intro-box#customer-activation div.role h5, .intro-box#quantSelf div.role h5,
+.intro-box div.role h4, .intro-box#digital-migration div.role h4, .intro-box#digiwise div.role h4, .intro-box#customer-activation div.role h4, .intro-box#quantSelf div.role h4 {
   color: white;
   padding: 0; }
 
-div.intro-box h1, div.intro-box#digital-migration h1, div.intro-box#digiwise h1, div.intro-box#customer-activation h1 {
+div.intro-box h1, div.intro-box#digital-migration h1, div.intro-box#digiwise h1, div.intro-box#customer-activation h1, div.intro-box#quantSelf h1 {
   padding-bottom: 2%; }
 
-div.intro-box h1, div.intro-box#digital-migration h1, div.intro-box#digiwise h1, div.intro-box#customer-activation h1,
-div.intro-box p, div.intro-box#digital-migration p, div.intro-box#digiwise p, div.intro-box#customer-activation p {
+div.intro-box h1, div.intro-box#digital-migration h1, div.intro-box#digiwise h1, div.intro-box#customer-activation h1, div.intro-box#quantSelf h1,
+div.intro-box p, div.intro-box#digital-migration p, div.intro-box#digiwise p, div.intro-box#customer-activation p, div.intro-box#quantSelf p {
   color: #fefefe; }
 
 div.columns.large-offset-2 {
@@ -4416,7 +4424,7 @@ section.homepage.digiwise {
   -webkit-transition: background .5s ease-in-out;
   transition-delay: .1s; }
 
-.intro-box, .intro-box#digital-migration, .intro-box#digiwise, .intro-box#customer-activation {
+.intro-box, .intro-box#digital-migration, .intro-box#digiwise, .intro-box#customer-activation, .intro-box#quantSelf {
   position: relative;
   margin-top: -22rem;
   color: white;
@@ -4424,7 +4432,7 @@ section.homepage.digiwise {
   box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.2);
   top: 0; }
 
-div.intro-box div.columns.small-12.large-10, div.intro-box#digital-migration div.columns.small-12.large-10, div.intro-box#digiwise div.columns.small-12.large-10, div.intro-box#customer-activation div.columns.small-12.large-10 {
+div.intro-box div.columns.small-12.large-10, div.intro-box#digital-migration div.columns.small-12.large-10, div.intro-box#digiwise div.columns.small-12.large-10, div.intro-box#customer-activation div.columns.small-12.large-10, div.intro-box#quantSelf div.columns.small-12.large-10 {
   margin-right: 1.875rem; }
 
 #digital-migration.intro-box {
@@ -4435,6 +4443,9 @@ div.intro-box div.columns.small-12.large-10, div.intro-box#digital-migration div
 
 #customer-activation.intro-box {
   background-color: #00B1C8; }
+
+#quantSelf.intro-box {
+  background-color: #2F524C; }
 
 .color-section-primary.digiwise {
   background-color: #FFA300; }
@@ -4453,6 +4464,9 @@ div.intro-box div.columns.small-12.large-10, div.intro-box#digital-migration div
 
 .color-section-secondary.customer {
   background-color: #00606D; }
+
+.color-section-primary.quantSelf {
+  background-color: #2F524C; }
 
 div.brand-color {
   text-align: center; }
@@ -4581,6 +4595,10 @@ div.interactive {
 
 .parallax#customer-activation {
   background-image: url("../assets/ACT-parallax.jpg");
+  background-position: center; }
+
+.parallax#quantSelf {
+  background-image: url("../assets/QNT-parallax.png");
   background-position: center; }
 
 .glass,

@@ -2,7 +2,8 @@
   "parallax":{
     "digiwise":"digiwise",
     "digital-migration":"digital-migration",
-    "customer-activation":"customer-activation"
+    "customer-activation":"customer-activation",
+    "quantSelf":"quantSelf"
   },
   "digiwiseRole": {
     "role":"User testing <br/> UX Design <br/> UI Design"
@@ -34,9 +35,19 @@
     "body":"Working as consultant means you see al lot of good things done badly. One of the things I have seen done wrong more often than not is having a solid strategy to attract, onboard and retain your average user.<br /><br /> Developed as an internal project for Adaptive Lab, Customer Activation was our answer to all the common mistakes we saw around.<br /> Each designer in the team had the responsability of designing  the end to end flow of activating a customer for a specific sector. I chose a financial service."
   },
 
+  "quantSelfRole":{
+    "role":"Design <br/> Code"
+  },
+  "quantSelf":{
+    "colour":"quantSelf",
+    "title":"Creating visual experiments based on my personal data",
+    "body":"This small side project was developed after taking a crash course in data visualisation with Marius Watz at the Copenhagen Institute of Interaction Design. For this page I collected two of my favourite visualisation that came out of those intense but rewarding 7 days."
+  },
+
   "typeOfProject": {
     "typeOfProject-digital":"Service design sprint",
     "typeOfProject-customer":"Internal project",
-    "typeOfProject-digiwise":"Design sprint"
+    "typeOfProject-digiwise":"Design sprint",
+    "typeOfProject-quantSelf":"Personal project"
   }
 }
