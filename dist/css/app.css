@@ -4174,6 +4174,11 @@ div.customer a {
   font-weight: 900;
   font-size: 1.625rem; }
 
+.color-text.quantSelf-primary h1 {
+  color: #2F524C;
+  font-weight: 900;
+  font-size: 1.625rem; }
+
 section.homepage div.columns.homepage {
   max-width: 20%; }
 
@@ -4453,6 +4458,9 @@ div.intro-box div.columns.small-12.large-10, div.intro-box#digital-migration div
 
 .color-section-secondary.customer {
   background-color: #00606D; }
+
+.color-section-primary.quantSelf {
+  background-color: #2F524C; }
 
 div.brand-color {
   text-align: center; }
