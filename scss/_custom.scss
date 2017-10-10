@@ -497,6 +497,11 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $customer-primary;
 }
 
+.intro-box#quantSelf{
+  @extend .intro-box;
+  background-color: $quantSelf-primary;
+}
+
 .color-section-primary.digiwise {
   background-color: $digiwise-primary;
 }
@@ -686,6 +691,11 @@ div.interactive {
 
 .parallax#customer-activation{
   background-image: url("../assets/ACT-parallax.jpg");
+  background-position: center;
+}
+
+.parallax#quantSelf{
+  background-image: url("../assets/QNT-parallax.png");
   background-position: center;
 }
 
