@@ -4164,6 +4164,9 @@ h6 {
 div.customer a {
   color: #00B1C8; }
 
+div.quantSelf a {
+  color: #E00C18; }
+
 .color-text.digital-migration-primary h1 {
   color: #444FCF;
   font-weight: 900;

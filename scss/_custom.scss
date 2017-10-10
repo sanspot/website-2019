@@ -24,6 +24,7 @@ $digiwise-primary: #FFA300;
 $digiwise-secondary:#FDF6E8;
 $dark-grey: #4A4A4A;
 $quantSelf-primary: #2F524C;
+$quantSelf-secondary: #E00C18;
 
 
 $homepage-grey:#272727;
@@ -136,6 +137,10 @@ h6 {
 
 div.customer a {
   color:$customer-primary;
+}
+
+div.quantSelf a {
+  color:$quantSelf-secondary;
 }
 
 .color-text.digital-migration-primary h1{
