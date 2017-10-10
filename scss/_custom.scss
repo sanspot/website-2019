@@ -663,6 +663,15 @@ a.button.footer.projects.linkTo.digital:hover {
   transition-delay: .1s;
 }
 
+a.button.footer.projects.linkTo.quantSelf:hover {
+  background-color: $quantSelf-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
 
 a.button.footer.up{
   background-color: $homepage-grey;
@@ -708,7 +717,7 @@ div.interactive {
 }
 
 .parallax#quantSelf{
-  background-image: url("../assets/QNT-parallax.png");
+  background-image: url("../assets/QNT-parallax.jpg");
   background-position: center;
 }
 
