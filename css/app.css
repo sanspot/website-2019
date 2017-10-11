@@ -4165,7 +4165,7 @@ div.customer a {
   color: #00B1C8; }
 
 div.quantSelf a {
-  color: #AC0D10; }
+  color: #F82F39; }
 
 .color-text.digital-migration-primary h1 {
   color: #444FCF;
@@ -4571,6 +4571,13 @@ a.button.footer.projects.linkTo.digital:hover {
   -webkit-transition: background .5s ease-in-out;
   transition-delay: .1s; }
 
+a.button.footer.projects.linkTo.quantSelf:hover {
+  background-color: #2F524C;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  transition-delay: .1s; }
+
 a.button.footer.up {
   background-color: #272727;
   width: 100%; }
@@ -4606,7 +4613,7 @@ div.interactive {
   background-position: center; }
 
 .parallax#quantSelf {
-  background-image: url("../assets/QNT-parallax.png");
+  background-image: url("../assets/QNT-parallax.jpg");
   background-position: center; }
 
 .glass,

@@ -5,6 +5,8 @@
     "nextProject-color-digiwise":"experian",
     "nextProject-text-digiwise":"Digiwise",
     "nextProject-color-digital":"digital",
-    "nextProject-text-digital":"Digital migration"
+    "nextProject-text-digital":"Digital migration",
+    "nextProject-color-quantSelf":"quantSelf",
+    "nextProject-text-quantSelf":"Quantified self"
   }
 }
