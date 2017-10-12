@@ -4286,7 +4286,8 @@ a.button.projects.home div.projects h6 {
 
 div a.button.home.linkTo.digital,
 div a.button.home.linkTo.customer,
-div a.button.home.linkTo.digiwise {
+div a.button.home.linkTo.digiwise,
+div a.button.home.linkTo.quantSelf {
   background-color: rgba(39, 39, 39, 0); }
 
 div a.button.home.linkTo.digital:hover {
@@ -4303,6 +4304,12 @@ div a.button.home.linkTo.customer:hover {
 
 div a.button.home.linkTo.digiwise:hover {
   background-color: rgba(189, 80, 22, 0.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out; }
+
+div a.button.home.linkTo.quantSelf:hover {
+  background-color: rgba(31, 51, 50, 0.5);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out; }
@@ -4401,7 +4408,7 @@ section.nav a.button.digiwise:hover {
   -webkit-transition: background .5s ease-in-out; }
 
 section.nav a.button.quantSelf:hover {
-  background-color: rgba(47, 82, 76, 0.8);
+  background-color: rgba(31, 54, 50, 0.8);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out; }
@@ -4431,8 +4438,15 @@ section.homepage.customer.isActive {
   -webkit-transition: background .5s ease-in-out;
   transition-delay: .1s; }
 
-section.homepage.digiwise {
+section.homepage.digiwise.isActive {
   background-color: #FFA300;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  transition-delay: .1s; }
+
+section.homepage.quantSelf.isActive {
+  background-color: #2F524C;
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
