@@ -4379,6 +4379,9 @@ section.nav a.button.digital {
 section.nav a.button.digiwise {
   background-color: #FFA300; }
 
+section.nav a.button.quantSelf {
+  background-color: #2F524C; }
+
 section.nav a.button.customer:hover {
   background-color: rgba(0, 96, 109, 0.8);
   transition: background .5s ease-in-out;
@@ -4393,6 +4396,12 @@ section.nav a.button.digital:hover {
 
 section.nav a.button.digiwise:hover {
   background-color: rgba(189, 80, 22, 0.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out; }
+
+section.nav a.button.quantSelf:hover {
+  background-color: rgba(47, 82, 76, 0.8);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out; }

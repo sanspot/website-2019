@@ -2,6 +2,7 @@
   "nav-button":{
     "nav-button-customer":"customer",
     "nav-button-digital":"digital",
-    "nav-button-digiwise":"digiwise"
+    "nav-button-digiwise":"digiwise",
+    "nav-button-quantSelf":"quantSelf"
   }
 }
