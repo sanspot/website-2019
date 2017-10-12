@@ -23,6 +23,13 @@ $(document).ready(function() {
       $('section.homepage').removeClass('digiwise');
     });
 
+    $('a.button.home.linkTo.quantSelf').hover(
+      function(){
+        $('section.homepage').addClass('quantSelf isActive');
+      }, function(){
+        $('section.homepage').removeClass('quantSelf');
+      });
+
     $('section.nav a').hover(
       function(){
         $('section.homepage').addClass('customer isActive');
