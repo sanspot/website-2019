@@ -44,6 +44,16 @@
     "body":"This small side project was developed after taking a crash course in data visualisation with Marius Watz at the Copenhagen Institute of Interaction Design. In this page I collected two of my favourite visualisations which came out of those intense but rewarding 7 days."
   },
 
+  "waspsRole":{
+    "role":"Design <br/> Development"
+  },
+  "wasps":{
+    "colour":"wasps",
+    "title":"Programming an interactive space of distributed sensors",
+    "body":"This is part of my graduation project back at TU Delft. The aim of the project was to test weather designers could learn to code an interactive room fitted with a newtowrk sensors. This project was a collaborative effort between me and a team of engineers from the Computer Science faculty."
+  },
+
+
   "typeOfProject": {
     "typeOfProject-digital":"Service design sprint",
     "typeOfProject-customer":"Internal project",
