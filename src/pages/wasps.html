@@ -1,0 +1,134 @@
+{{>nav}}
+{{>project-intro}}
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  PROBLEMS -->
+<section>
+  <div class="row">
+    <div class="columns small-12 medium-expand">
+      <h6 class="section-title"><span>A little background</span></h6>
+    </div>
+  </div>
+  <div class="row align-left">
+    <div class="columns small-12 medium-expand quantSelf large-6">
+      <h1 class="block-header pad-bottom">
+        Teaching designers how to code is no small feat.
+      </h1>
+      <p>
+        This project was the combination of two different efforts.
+        On one side you had the engineers, who wanted to build a distributed network of microcontrollers inside an interactive room.
+        <br>On the other side, you have me, a designer whose job was to simplify the complexity around coding for distributed networks, to allow designers to create interactive pieces inside the interactive room.
+        The main challenges for this project were:
+      </p>
+    </div>
+  </div>
+  <div class="row align-left color-text quantSelf-primary">
+      <div class="columns small-12 medium-expand">
+        <div>
+          <h1>1</h1>
+          <p>
+            Distributed networks don't rely on the programming paradigm we are most familiar with.
+            Object Oriented Programming was not an option for us since our distributed network was built on a different paradigm, called State Machine.
+          </p>
+        </div>
+      </div>
+      <div class="columns small-12 medium-expand">
+        <div>
+          <h1>2</h1>
+          <p>
+            State Machine is a very unfamiliar paradigm.
+            For me, the main challenge was to figure out how much effort users were willing to put into learning the paradigm, and still get something useful out of it, once they used it.
+          </p>
+        </div>
+      </div>
+      <div class="columns small-12 medium-expand">
+        <div>
+          <h1>3</h1>
+          <p>
+            Parallel to testing wether designer can use the State Machine paradigm, I needed to figure out what a programming environment for state machine would look like.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  1. FIRST EXPERIMENT -->
+<section class="color-section-primary quantSelf wow fadeInUp">
+  <div class="row">
+    <div class="columns small-12 medium-expand">
+      <h6 class="section-title"><span>Guerilla Testing people</span></h6>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="columns small-12 medium-expand quantSelf large-6">
+      <h1>Asking people to create state machines for common devices</h1>
+      <p>
+        One of the first step for me was to create a series of experiments that I run with volounteers, picked at random from around the faculty.
+        My objective was to understand if people could grasp what a state machine looks like. If yes, I wanted to see wether they could use it to replicate the behaviors of "simple" device, like a vending machine.
+        <br>Each participant was given 3 predefined states and a list of input and output. Starting from all of those they had to fill in the gaps and create the necessary states to perform a task (in the case of the vending machine, take some money and give out food).
+        <br><br>The main learning for this experiments was that State Machines don't allow for much flexibility. As long as the behaviour intended is quite linear (if this then that) then people can manage, but as soon as more responsiveness is introduced keeping track of all the changes becomes rather difficult.
+      </p>
+    </div>
+    <div class="columns small-12 medium-expand">
+      <img src="assets/QNT-viz1.jpg" />
+    </div>
+  </div>
+</section>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  2. ACTIVATE -->
+<section class="color-section-secondary quantSelf wow fadeInUp" id="experiment2">
+  <div class="row">
+    <div class="columns small-12 medium-expand">
+      <h6 class="section-title"><span>Experiment #2</span></h6>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="columns small-12 medium-expand quantSelf large-6">
+      <h1>Randomising the rules</h1>
+      <p>
+        The second rounds of experiments was taking the abstraction one step further. The new set of rules were introducing random ranges of values based on the interaction between friends and posts.
+        <br>So, for example, the more activity a post would get, the thicker the lines would become.
+        Or if the post happened at certain times of the day, then the slant of the line would increase or decrease accordingly, and so forth.
+      </p>
+    </div>
+    <div class="columns small-12 medium-expand quantSelf large-6">
+      <p>
+        All this seemingly random rules where used as a procedural way to create unexpected visual patterns, regardless of the relationship between data points (much like with <a href="https://en.wikipedia.org/wiki/Sol_LeWitt">Sol LeWiit</a> art, minus the talent).
+      </p>
+    </div>
+    <div class="columns small-12 medium-expand">
+      <img src="assets/QNT-viz2.png" />
+    </div>
+  </div>
+</section>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  2. ONBOARDING -->
+<section class="quantSelf">
+  <div class="row">
+    <div class="columns small-12 medium-expand">
+      <h6 class="section-title"><span>Creating a physical object</span></h6>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="columns small-12 medium-expand large-6">
+      <div class="row">
+        <div class="columns small-12 medium-expand">
+          <h1>For the final exhibition I created a series of laser cut wood prints of my work done with Processing</h1>
+          <p>
+            The end of the summer school course was marked by an final show case of our collective work.
+            For my visuals I decided to make laser cut wood prints, so I turned the graphic into grayscale images and fed those to the laser cutter.
+            The way the cutter works is it converts the grayscale into a depth map, so each shade of gray gets a specific engraving depth.
+            <br><br>
+            As for material I experimented a little with wood finishes to find the wood that would work best for each of the prints.
+            For the first visual I chose an inexpensive wood made of wood pulp pressed together. This wood has the advantage of not turning brown once engraved and it gives out a silky finish to the touch.
+            <br>For the second print I chose a sandwich structured wood. The light color of top sandwiches gives way to a rich deep brown once it is engraved, making the shapes really pop.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="columns small-12 medium-expand">
+        <div>
+          <img src="assets/QNT-laser1.jpg" />
+        </div>
+      </div>
+  </div>
+</section>
