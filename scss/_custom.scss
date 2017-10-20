@@ -26,6 +26,7 @@ $dark-grey: #4A4A4A;
 $quantSelf-primary: #2F524C;
 $quantSelf-secondary: #EBEBEB;
 $quantSelf-red: #F82F39;
+$wasps-primary: #7344CF;
 
 
 $homepage-grey:#272727;
@@ -540,6 +541,11 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $quantSelf-primary;
 }
 
+.intro-box#wasps{
+  @extend .intro-box;
+  background-color: $wasps-primary;
+}
+
 .color-section-primary.digiwise {
   background-color: $digiwise-primary;
 }
@@ -745,6 +751,11 @@ div.interactive {
 
 .parallax#quantSelf{
   background-image: url("../assets/QNT-parallax.jpg");
+  background-position: center;
+}
+
+.parallax#wasps{
+  background-image: url("../assets/WSP-parallax.jpg");
   background-position: center;
 }
 

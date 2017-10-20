@@ -20,6 +20,11 @@
   <section class="parallax noPad" id="{{quantSelf}}"></section>
   {{/with}}
 {{/ifpage}}
+{{#ifpage 'wasps'}}
+  {{#with intro.parallax}}
+  <section class="parallax noPad" id="{{wasps}}"></section>
+  {{/with}}
+{{/ifpage}}
 <section>
   {{#ifpage 'digiwise'}}
     {{#with intro.digiwise}}
@@ -73,6 +78,19 @@
       </div>
       {{/with}}
   {{/ifpage}}
+  {{#ifpage 'wasps'}}
+    {{#with intro.wasps}}
+    <div class="row align-center intro-box" id="{{colour}}">
+      <div class="columns small-12 large-8">
+        <h1>
+          {{title}}
+        </h1>
+        <p>
+          {{{body}}}
+        </p>
+      </div>
+      {{/with}}
+  {{/ifpage}}
     <div class="columns small-12 medium-expand large-offset-2 align-middle">
       <div class="row">
         <div class="columns small-4 large-12 role">
@@ -97,6 +115,11 @@
             <h4>{{{role}}}</h4>
             {{/with }}
           {{/ifpage}}
+          {{#ifpage 'wasps'}}
+            {{#with intro.waspsRole}}
+            <h4>{{{role}}}</h4>
+            {{/with }}
+          {{/ifpage}}
         </div>
         <div class="columns small-4 large-12 role">
           <h5>Type of project</h5>
@@ -118,6 +141,11 @@
           {{#ifpage 'quantSelf'}}
           {{#with intro.typeOfProject}}
           <h4>{{typeOfProject-quantSelf}}</h4>
+          {{/with}}
+          {{/ifpage}}
+          {{#ifpage 'wasps'}}
+          {{#with intro.typeOfProject}}
+          <h4>{{typeOfProject-wasps}}</h4>
           {{/with}}
           {{/ifpage}}
         </div>
