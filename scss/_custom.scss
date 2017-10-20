@@ -26,7 +26,7 @@ $dark-grey: #4A4A4A;
 $quantSelf-primary: #2F524C;
 $quantSelf-secondary: #EBEBEB;
 $quantSelf-red: #F82F39;
-$wasps-primary: #7344CF;
+$wasps-primary: #6642B4;
 
 
 $homepage-grey:#272727;
@@ -574,6 +574,14 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $quantSelf-primary;
 }
 .color-section-secondary.quantSelf {
+  background-color: $quantSelf-secondary;
+}
+
+
+.color-section-primary.wasps {
+  background-color: $wasps-primary;
+}
+.color-section-secondary.wasps {
   background-color: $quantSelf-secondary;
 }
 
