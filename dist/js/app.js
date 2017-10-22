@@ -30,6 +30,13 @@ $(document).ready(function() {
         $('section.homepage').removeClass('quantSelf');
       });
 
+      $('a.button.home.linkTo.wasps').hover(
+        function(){
+          $('section.homepage').addClass('wasps isActive');
+        }, function(){
+          $('section.homepage').removeClass('wasps');
+        });
+
     $('section.nav a').hover(
       function(){
         $('section.homepage').addClass('customer isActive');
