@@ -316,7 +316,8 @@ a.button.projects.home div.projects h6{
 div a.button.home.linkTo.digital,
 div a.button.home.linkTo.customer,
 div a.button.home.linkTo.digiwise,
-div a.button.home.linkTo.quantSelf {
+div a.button.home.linkTo.quantSelf,
+div a.button.home.linkTo.wasps {
   background-color: rgba(39,39,39,0);
 }
 
@@ -343,6 +344,13 @@ div a.button.home.linkTo.digiwise:hover {
 
 div a.button.home.linkTo.quantSelf:hover {
   background-color: rgba(31,51,50,.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+div a.button.home.linkTo.wasps:hover {
+  background-color: rgba(67,42,122,.5);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
@@ -446,6 +454,10 @@ section.nav a.button.quantSelf {
   background-color: $quantSelf-primary;
 }
 
+section.nav a.button.wasps {
+  background-color: $wasps-primary;
+}
+
 section.nav a.button.customer:hover{
   background-color: rgba(0,96,109,.8);
   transition: background .5s ease-in-out;
@@ -469,6 +481,13 @@ section.nav a.button.digiwise:hover{
 
 section.nav a.button.quantSelf:hover{
   background-color: rgba(31,54,50,.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+section.nav a.button.wasps:hover{
+  background-color: rgba(67,42,122,.8);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
@@ -519,6 +538,15 @@ section.homepage.digiwise.isActive {
 
 section.homepage.quantSelf.isActive {
   background-color: $quantSelf-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+section.homepage.wasps.isActive {
+  background-color: $wasps-primary;
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
@@ -725,6 +753,15 @@ a.button.footer.projects.linkTo.digital:hover {
 
 a.button.footer.projects.linkTo.quantSelf:hover {
   background-color: $quantSelf-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+a.button.footer.projects.linkTo.wasps:hover {
+  background-color: $wasps-primary;
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
