@@ -4092,6 +4092,12 @@ section {
 section.noPad {
   padding: 0 5%; }
 
+section.noPadBottom {
+  padding: 5% 5% 0 5%; }
+
+section.noPadTop {
+  padding: 0 5% 5% 5%; }
+
 .pad-bottom {
   padding: 0 0 3% 0; }
 
