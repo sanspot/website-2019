@@ -69,7 +69,7 @@
     </div>
   </div>
   <div class="row align-left">
-    <div class="columns small-12 medium-expand quantSelf large-6">
+    <div class="columns small-12 medium-expand large-6">
       <h1 class="block-header pad-bottom">
         Teaching designers how to code is no small feat.
       </h1>
@@ -81,13 +81,13 @@
       </p>
     </div>
   </div>
-  <div class="row align-left color-text quantSelf-primary">
+  <div class="row align-left color-text wasps-primary">
       <div class="columns small-12 medium-expand">
         <div>
           <h1>1</h1>
           <p>
             Distributed networks don't rely on the programming paradigm we are most familiar with.
-            Object Oriented Programming was not an option for us since our distributed network was built on a different paradigm, called State Machine.
+            Object Oriented Programming was not an option because the distributed network built by the engineers was using a different paradigm, called State Machine.
           </p>
         </div>
       </div>
@@ -95,8 +95,8 @@
         <div>
           <h1>2</h1>
           <p>
-            State Machine is a very unfamiliar paradigm.
-            For me, the main challenge was to figure out how much effort users were willing to put into learning the paradigm, and still get something useful out of it, once they used it.
+            State Machine is a completely unfamiliar paradigm for designers who code.
+            For me, the main challenge was to figure out how easy (or hard) it was for a user get something useful out of it.
           </p>
         </div>
       </div>
@@ -104,7 +104,7 @@
         <div>
           <h1>3</h1>
           <p>
-            Parallel to testing wether designer can use the State Machine paradigm, I needed to figure out what a programming environment for state machine would look like.
+            Parallel to testing the assumption that designer can learn and use the State Machine paradigm, I needed to figure out what a programming environment for state machine would look like.
           </p>
         </div>
       </div>
@@ -123,8 +123,8 @@
       <div class="row">
         <h1>Asking people to create state machines for common devices</h1>
         <p>
-          One of the first step for me was to create a series of experiments that I run with volounteers, picked at random from around the faculty.
-          My objective was to understand if people could grasp what a state machine looks like. If yes, I wanted to see whether they could use it to replicate the behaviors of "simple" devices, like a vending machine.
+          One of the first step for me was to create a series of experiments, aimed at understanding if people could grasp how State Machines work.
+          I run these experiments with volounteers, picked at random from around the faculty.
         </p>
       </div>
       <div class="row">
@@ -132,14 +132,16 @@
           The test setup
         </h2>
         <p>
-          Each participant was given 3 predefined states, plus a list of input and output. By combining those together they had to fill in the gaps and create as many states as they needed to perform a task (in the case of the vending machine, take some money and give out food).
+          Each participants was asked to replicate the behaviors of everyday machines, like a vending machine or a microwave.
+          To do that they were given 3 predefined states, plus a list of input, output and actions. By combining those together they had to fill in the gaps and create as many states as they needed to perform a task (in the case of the vending machine, take some money and give out food).
         </p>
       </div>
       <div class="row">
         <h2>Key learning</h2>
         <p>
           The main learning for this experiments was that State Machines don't allow for much flexibility.
-          As long as the behaviour intended is quite linear (if this then that) then people will manage. But as soon as more responsiveness is introduced keeping track of all the changes becomes rather difficult.
+          As long as the behaviour intended is quite linear (if this then that) then people can manage.
+          But as soon as more responsiveness is introduced keeping track of all the states changes becomes rather difficult.
         </p>
       </div>
     </div>
@@ -153,58 +155,52 @@
 <section class="wow fadeInUp" id="experiment2">
   <div class="row">
     <div class="columns small-12 medium-expand">
-      <h6 class="section-title"><span>Iterating on the learnings</span></h6>
+      <h6 class="section-title"><span>creating a visual language</span></h6>
     </div>
   </div>
-  <div class="row ">
-    <div class="columns small-12 medium-expand quantSelf large-6">
-      <h1>Taking</h1>
-      <p>
-        The second rounds of experiments was taking the abstraction one step further. The new set of rules were introducing random ranges of values based on the interaction between friends and posts.
-        <br>So, for example, the more activity a post would get, the thicker the lines would become.
-        Or if the post happened at certain times of the day, then the slant of the line would increase or decrease accordingly, and so forth.
-      </p>
-    </div>
-    <div class="columns small-12 medium-expand quantSelf large-6">
-      <p>
-        All this seemingly random rules where used as a procedural way to create unexpected visual patterns, regardless of the relationship between data points (much like with <a href="https://en.wikipedia.org/wiki/Sol_LeWitt">Sol LeWiit</a> art, minus the talent).
-      </p>
-    </div>
-    <div class="columns small-12 medium-expand">
-      <img src="assets/QNT-viz2.png" />
-    </div>
-  </div>
-</section>
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  2. ONBOARDING -->
-<section class="quantSelf">
   <div class="row">
-    <div class="columns small-12 medium-expand">
-      <h6 class="section-title"><span>Creating a physical object</span></h6>
-    </div>
-  </div>
-  <div class="row ">
     <div class="columns small-12 medium-expand large-6">
       <div class="row">
         <div class="columns small-12 medium-expand">
-          <h1>For the final exhibition I created a series of laser cut wood prints of my work done with Processing</h1>
+          <h1>Time to understand what a programming language for State Machines looks like</h1>
           <p>
-            The end of the summer school course was marked by an final show case of our collective work.
-            For my visuals I decided to make laser cut wood prints, so I turned the graphic into grayscale images and fed those to the laser cutter.
-            The way the cutter works is it converts the grayscale into a depth map, so each shade of gray gets a specific engraving depth.
-            <br><br>
-            As for material I experimented a little with wood finishes to find the wood that would work best for each of the prints.
-            For the first visual I chose an inexpensive wood made of wood pulp pressed together. This wood has the advantage of not turning brown once engraved and it gives out a silky finish to the touch.
-            <br>For the second print I chose a sandwich structured wood. The light color of top sandwiches gives way to a rich deep brown once it is engraved, making the shapes really pop.
+          Next, I started designing and testing what a programming language for State Machine could look like.
+          The design was informed by my test with my fellow design students on how the new paradigm could be adapted to the designer's idea of programming.
           </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns small-12 medium-expand">
+          <h2>A visual programming language</h2>
+          <p>
+            I knew I could not create a text based programming language for State Machine. I simply did not have the knowledge and the understanding required for such an endeavour. I also knew that designers have a strong affinity to graphical interfaces. Visual programming languages are also often used to familiarise kids with programming (see <a href="https://scratch.mit.edu">MIT's Scratch</a> and the more recent <a href="https://www.samlabs.com">SAM Labs</a>).<br>So for all these reasons and more, I decided I would create a visual programming interface.
+         </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns small-12 medium-expand">
+          <h2>Designing, testing and iterating a functional prototype</h2>
+          <p>
+            The first iterations of the interface were done through <strong>paper prototypes</strong>, where I asked users to code simple interactions, like turning on and off or change colors to an array of LED.
+            <br>This first round of testing helped me understand what was the right level of abstraction for the tool to be usable.
+         </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns small-12 medium-expand">
+          <p>
+            It quickly became clear that users needed some kind of <strong>visual feedback</strong>.
+            Coding this type of interactions without seeing the results was difficult for most users.
+            So I created a virtual representaton of the grid of tiles inside the interactive room, under which the network of embeded sensor was placed.
+            The idea was to mimic the behaviours coded on paper with those shown on the iPad running the prototype.
+         </p>
         </div>
       </div>
     </div>
     <div class="columns small-12 medium-expand">
-        <div>
-          <img src="assets/QNT-laser1.jpg" />
-        </div>
-      </div>
+      <img src="assets/WSP-user-testing.jpg" />
+      <img src="assets/WSP-user-testing-large.jpg" />
+    </div>
   </div>
 </section>
 

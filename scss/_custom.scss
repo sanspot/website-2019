@@ -25,8 +25,9 @@ $digiwise-secondary:#FDF6E8;
 $dark-grey: #4A4A4A;
 $quantSelf-primary: #2F524C;
 $quantSelf-secondary: #EBEBEB;
-$quantSelf-red: #F82F39;
+$quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
+$wasps-highlight: #46CCC8;
 
 
 $homepage-grey:#272727;
@@ -142,7 +143,11 @@ div.customer a {
 }
 
 div.quantSelf a {
-  color:$quantSelf-red;
+  color:$quantSelf-highlight;
+}
+
+div.wasps a {
+  color:$wasps-highlight;
 }
 
 .color-text.digital-migration-primary h1{
@@ -159,6 +164,12 @@ div.quantSelf a {
 
 .color-text.quantSelf-primary h1 {
   color: $quantSelf-primary;
+  font-weight: $extrabold;
+  font-size: 1.625rem;
+}
+
+.color-text.wasps-primary h1 {
+  color: $wasps-primary;
   font-weight: $extrabold;
   font-size: 1.625rem;
 }
