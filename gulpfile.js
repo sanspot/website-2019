@@ -29,18 +29,19 @@ gulp.task('clean', function () {
   ])
 });
 
-//====================================SASS
+//========================================= Minify SASS
 gulp.task('sass', function() {
   return gulp.src('scss/app.scss')
     .pipe($.sass({
-      includePaths: sassPaths
+      includePaths: sassPaths,
+      // Right here!
+      outputStyle: 'compressed'
     })
       .on('error', $.sass.logError))
     .pipe($.autoprefixer({
       browsers: ['last 2 versions', 'ie >= 9']
     }))
-    .pipe(gulp.dest('css'))
-    .pipe(gulp.dest('dist/css/'));
+    .pipe(gulp.dest('dist/css'));
 });
 //========================================= CopyJS
 gulp.task('copyJS', function(){
