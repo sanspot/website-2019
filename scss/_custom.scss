@@ -28,7 +28,8 @@ $quantSelf-secondary: #EBEBEB;
 $quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
 $wasps-highlight: #46CCC8;
-
+$google-primary: #01A854;
+$google-highlight: #46CCC8;
 
 $homepage-grey:#272727;
 
@@ -291,6 +292,15 @@ ul {
   right: 100%;
   margin: 10px 10px 0 0;
   background-color: $dark-grey;
+}
+
+
+ul.googleBullet {
+  list-style:square;
+}
+
+ul.googleBullet li {
+  margin-bottom: 16px;
 }
 
 //projects Home links
@@ -630,6 +640,10 @@ div.intro-box div.columns.small-12.large-10 {
 }
 .color-section-secondary.wasps {
   background-color: $quantSelf-secondary;
+}
+
+.color-section-primary.google {
+  background-color: $google-primary;
 }
 
 
