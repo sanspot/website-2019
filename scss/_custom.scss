@@ -29,7 +29,6 @@ $quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
 $wasps-highlight: #46CCC8;
 $google-primary: #01A854;
-$google-highlight: #46CCC8;
 
 $homepage-grey:#272727;
 
@@ -800,6 +799,10 @@ div.interactive h6 {
 }
 div.interactive {
   padding: 0;
+}
+
+a.button.google {
+  background-color: #0F10CC;
 }
 
 //////////////////////////////////////////////////////////////// 4. ANIMATIONS AND IMAGES
