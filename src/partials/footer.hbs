@@ -43,6 +43,11 @@
       <a href="http://sandromacchioli.com/digital-migration.html" class="button footer projects linkTo {{nextProject-color-digital}}">
       {{/with}}
       {{/ifpage}}
+      {{#ifpage 'googleTask'}}
+      {{#with footer.nextProject-button}}
+      <a href="http://sandromacchioli.com/digital-migration.html" class="button footer projects linkTo {{nextProject-color-digital}}">
+      {{/with}}
+      {{/ifpage}}
         <div class="row">
           <div class="columns small-12 medium-expand">
             <h6 class="section-title"><span>Next project</span></h6>
@@ -76,6 +81,11 @@
             {{/with}}
             {{/ifpage}}
             {{#ifpage 'citymapper'}}
+            {{#with footer.nextProject-button}}
+            <h2>{{nextProject-text-digital}}</h2>
+            {{/with}}
+            {{/ifpage}}
+            {{#ifpage 'googleTask'}}
             {{#with footer.nextProject-button}}
             <h2>{{nextProject-text-digital}}</h2>
             {{/with}}

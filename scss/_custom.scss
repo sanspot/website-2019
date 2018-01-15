@@ -467,6 +467,10 @@ section.nav a.button.wasps {
   background-color: $wasps-primary;
 }
 
+section.nav a.button.google {
+  background-color: $google-primary;
+}
+
 section.nav a.button.customer:hover{
   background-color: rgba(0,96,109,.8);
   transition: background .5s ease-in-out;
@@ -600,6 +604,11 @@ div.intro-box div.columns.small-12.large-10 {
 .intro-box#wasps{
   @extend .intro-box;
   background-color: $wasps-primary;
+}
+
+.intro-box#google{
+  @extend .intro-box;
+  background-color: $google-primary;
 }
 
 .color-section-primary.digiwise {
@@ -838,6 +847,11 @@ a.button.google {
 
 .parallax#wasps{
   background-image: url("../assets/WSP-parallax.jpg");
+  background-position: center;
+}
+
+.parallax#google{
+  background-image: url("../assets/GOOG-parallax-cat.jpg");
   background-position: center;
 }
 

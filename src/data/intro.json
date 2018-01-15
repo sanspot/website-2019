@@ -4,7 +4,8 @@
     "digital-migration":"digital-migration",
     "customer-activation":"customer-activation",
     "quantSelf":"quantSelf",
-    "wasps":"wasps"
+    "wasps":"wasps",
+    "google":"google"
   },
 
 
@@ -46,7 +47,7 @@
     "title":"Creating visual experiments based on my personal data",
     "body":"This small side project was developed after taking a crash course in data visualisation with Marius Watz at the Copenhagen Institute of Interaction Design. In this page I collected two of my favourite visualisations which came out of those intense but rewarding 7 days."
   },
-  
+
 
   "waspsRole":{
     "role":"Design <br/> Development"
@@ -57,6 +58,14 @@
     "body":"This is part of my graduation project back at TU Delft. The aim of the project was to test weather designers could learn to code an interactive room fitted with a newtwork of sensors. This project was a collaborative effort between me and a team of engineers from the Computer Science faculty."
   },
 
+  "googleRole":{
+    "role":"Design"
+  },
+  "google":{
+    "colour":"google",
+    "title":"The brief",
+    "body":"Millions of animals are currently in shelters and foster homes awaiting adoption. Design an experience that will help connect people looking for a new pet with the right companion for them. Help an adopter find a pet which matches their lifestyle, considering factors including breed, gender, age, temperament, and health status."
+  },
 
   "typeOfProject": {
     "typeOfProject-digital":"Service design sprint",
