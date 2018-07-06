@@ -28,7 +28,8 @@ $quantSelf-secondary: #EBEBEB;
 $quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
 $wasps-highlight: #46CCC8;
-$google-primary: #01A854;
+$hellojob-primary: #1A8D71;
+
 
 $homepage-grey:#272727;
 
@@ -294,14 +295,6 @@ ul {
 }
 
 
-ul.googleBullet {
-  list-style:square;
-}
-
-ul.googleBullet li {
-  margin-bottom: 16px;
-}
-
 //projects Home links
 a.button.projets.home,
 a.button.projects.home h2,
@@ -467,10 +460,6 @@ section.nav a.button.wasps {
   background-color: $wasps-primary;
 }
 
-section.nav a.button.google {
-  background-color: $google-primary;
-}
-
 section.nav a.button.customer:hover{
   background-color: rgba(0,96,109,.8);
   transition: background .5s ease-in-out;
@@ -606,9 +595,9 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $wasps-primary;
 }
 
-.intro-box#google{
+.intro-box#hellojob{
   @extend .intro-box;
-  background-color: $google-primary;
+  background-color: $hellojob-primary;
 }
 
 .color-section-primary.digiwise {
@@ -646,12 +635,12 @@ div.intro-box div.columns.small-12.large-10 {
 .color-section-primary.wasps {
   background-color: $wasps-primary;
 }
-.color-section-secondary.wasps {
-  background-color: $quantSelf-secondary;
-}
 
-.color-section-primary.google {
-  background-color: $google-primary;
+.color-section-primary.hellojob {
+  background-color: $hellojob-primary;
+}
+.color-section-secondary.hellojob {
+  background-color: $quantSelf-secondary;
 }
 
 
@@ -810,10 +799,6 @@ div.interactive {
   padding: 0;
 }
 
-a.button.google {
-  background-color: #0F10CC;
-}
-
 //////////////////////////////////////////////////////////////// 4. ANIMATIONS AND IMAGES
 //////////////////////////////////////////////////////////////// ---------
 // Parallax
@@ -850,8 +835,8 @@ a.button.google {
   background-position: center;
 }
 
-.parallax#google{
-  background-image: url("../assets/GOOG-parallax-cat.jpg");
+.parallax#hellojob{
+  background-image: url("../assets/HJ-parallax.png");
   background-position: center;
 }
 
