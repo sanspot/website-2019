@@ -330,7 +330,8 @@ div a.button.home.linkTo.digital,
 div a.button.home.linkTo.customer,
 div a.button.home.linkTo.digiwise,
 div a.button.home.linkTo.quantSelf,
-div a.button.home.linkTo.wasps {
+div a.button.home.linkTo.wasps,
+div a.button.home.linkTo.hellojob {
   background-color: rgba(39,39,39,0);
 }
 
@@ -364,6 +365,13 @@ div a.button.home.linkTo.quantSelf:hover {
 
 div a.button.home.linkTo.wasps:hover {
   background-color: rgba(67,42,122,.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+div a.button.home.linkTo.hellojob:hover {
+  background-color: rgba(17,98,79,.5);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
@@ -571,6 +579,15 @@ section.homepage.quantSelf.isActive {
 
 section.homepage.wasps.isActive {
   background-color: $wasps-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+section.homepage.hellojob.isActive {
+  background-color: $hello-primary;
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
