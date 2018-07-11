@@ -16,6 +16,7 @@ $px64:4rem;
 $px80:5rem;
 
 // Colors
+$hello-primary: #1A8D71;
 $customer-primary:#00B1C8;
 $customer-secondary:#00606D;
 $digital-migration-primary: #444FCF;
@@ -28,7 +29,6 @@ $quantSelf-secondary: #EBEBEB;
 $quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
 $wasps-highlight: #46CCC8;
-$hello-primary: #1A8D71;
 
 
 
@@ -471,6 +471,10 @@ section.nav a.button.wasps {
   background-color: $wasps-primary;
 }
 
+section.nav a.button.hellojob {
+  background-color: $hello-primary;
+}
+
 section.nav a.button.customer:hover{
   background-color: rgba(0,96,109,.8);
   transition: background .5s ease-in-out;
@@ -501,6 +505,13 @@ section.nav a.button.quantSelf:hover{
 
 section.nav a.button.wasps:hover{
   background-color: rgba(67,42,122,.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+section.nav a.button.hellojob:hover{
+  background-color: rgba(17,98,79,.8);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
