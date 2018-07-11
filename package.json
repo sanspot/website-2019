@@ -4,13 +4,13 @@
   "description": "Basic template for a new Foundation for Sites project.",
   "main": "gulpfile.js",
   "devDependencies": {
-    "animate.css": "^3.5.2",
-    "browser-sync": "^2.14.3",
+    "animate.css": "^3.6.1",
+    "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
-    "gulp-load-plugins": "^1.1.0",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-sass": "^2.1.0",
-    "motion-ui": "^1.2.2"
+    "motion-ui": "^1.2.3"
   },
   "scripts": {
     "start": "gulp",
@@ -29,9 +29,10 @@
   "private": true,
   "dependencies": {
     "del": "^2.2.2",
+    "foundation-sites": "^6.5.0-rc.2",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sequence": "^0.4.6",
     "handlebars-helper-br": "^0.1.0",
-    "panini": "^1.3.0"
+    "panini": "^1.6.2"
   }
 }

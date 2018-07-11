@@ -28,7 +28,8 @@ $quantSelf-secondary: #EBEBEB;
 $quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
 $wasps-highlight: #46CCC8;
-$hellojob-primary: #6642B4;
+$hello-primary: #1A8D71;
+
 
 
 $homepage-grey:#272727;
@@ -183,10 +184,14 @@ div.wasps a {
   font-size: 1.625rem;
 }
 
-.color-text.hellojob-primary h1 {
-  color: $hellojob-primary;
+.color-text.hello-primary h1 {
+  color: $hello-primary;
   font-weight: $extrabold;
   font-size: 1.625rem;
+}
+
+span.color-text.hello-primary {
+  color: $hello-primary;
 }
 
 section.homepage div.columns.homepage {
@@ -603,7 +608,7 @@ div.intro-box div.columns.small-12.large-10 {
 
 .intro-box#hellojob{
   @extend .intro-box;
-  background-color: $hellojob-primary;
+  background-color: $hello-primary;
 }
 
 .color-section-primary.digiwise {
@@ -643,7 +648,7 @@ div.intro-box div.columns.small-12.large-10 {
 }
 
 .color-section-primary.hellojob {
-  background-color: $wasps-primary;
+  background-color: $hello-primary;
 }
 
 
@@ -946,6 +951,10 @@ img.dropshadow {
   max-width: 17.5rem;
   height: auto;
   box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.20);
+}
+
+img.fullWidth {
+  min-width: 100%;
 }
 
 //Drawing
