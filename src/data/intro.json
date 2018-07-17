@@ -5,7 +5,7 @@
     "customer-activation":"customer-activation",
     "quantSelf":"quantSelf",
     "wasps":"wasps",
-    "google":"google"
+    "hellojob":"hellojob"
   },
 
 
@@ -58,13 +58,14 @@
     "body":"This is part of my graduation project back at TU Delft. The aim of the project was to test weather designers could learn to code an interactive room fitted with a newtwork of sensors. This project was a collaborative effort between me and a team of engineers from the Computer Science faculty."
   },
 
-  "googleRole":{
-    "role":"Design"
+
+  "hellojobRole":{
+    "role":"Strategy <br/> Design <br/> Branding"
   },
-  "google":{
-    "colour":"google",
-    "title":"The brief",
-    "body":"Millions of animals are currently in shelters and foster homes awaiting adoption. Design an experience that will help connect people looking for a new pet with the right companion for them. Help an adopter find a pet which matches their lifestyle, considering factors including breed, gender, age, temperament, and health status."
+  "hellojob":{
+    "colour":"hellojob",
+    "title":"Helping an entrepeneur in Rwanda envision his first web app",
+    "body":"While based in Kigali, Rwanda, I helped an entrepeneur with his budding venture. The output of the project was a series of strategic deliveries supported by a proof of concept (UX and UI).<br/> It was an  individual project that was run in parallel to other twos, over the course of three weeks."
   },
 
   "typeOfProject": {
@@ -72,6 +73,7 @@
     "typeOfProject-customer":"Internal project",
     "typeOfProject-digiwise":"Design sprint",
     "typeOfProject-quantSelf":"Personal project",
-    "typeOfProject-wasps":"Design and prototyping"
+    "typeOfProject-wasps":"Design and prototyping",
+    "typeOfProject-hellojob":"Strategy and design"
   }
 }
