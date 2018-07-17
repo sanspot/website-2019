@@ -818,6 +818,15 @@ a.button.footer.projects.linkTo.wasps:hover {
   transition-delay: .1s;
 }
 
+a.button.footer.projects.linkTo.hellojob:hover {
+  background-color: $hello-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
 
 a.button.footer.up{
   background-color: $homepage-grey;
