@@ -16,6 +16,7 @@ $px64:4rem;
 $px80:5rem;
 
 // Colors
+$hello-primary: #1A8D71;
 $customer-primary:#00B1C8;
 $customer-secondary:#00606D;
 $digital-migration-primary: #444FCF;
@@ -28,7 +29,8 @@ $quantSelf-secondary: #EBEBEB;
 $quantSelf-highlight: #F82F39;
 $wasps-primary: #6642B4;
 $wasps-highlight: #46CCC8;
-$google-primary: #01A854;
+
+
 
 $homepage-grey:#272727;
 
@@ -182,6 +184,16 @@ div.wasps a {
   font-size: 1.625rem;
 }
 
+.color-text.hello-primary h1 {
+  color: $hello-primary;
+  font-weight: $extrabold;
+  font-size: 1.625rem;
+}
+
+span.color-text.hello-primary {
+  color: $hello-primary;
+}
+
 section.homepage div.columns.homepage {
   max-width: 20%;
 }
@@ -294,14 +306,6 @@ ul {
 }
 
 
-ul.googleBullet {
-  list-style:square;
-}
-
-ul.googleBullet li {
-  margin-bottom: 16px;
-}
-
 //projects Home links
 a.button.projets.home,
 a.button.projects.home h2,
@@ -326,7 +330,8 @@ div a.button.home.linkTo.digital,
 div a.button.home.linkTo.customer,
 div a.button.home.linkTo.digiwise,
 div a.button.home.linkTo.quantSelf,
-div a.button.home.linkTo.wasps {
+div a.button.home.linkTo.wasps,
+div a.button.home.linkTo.hellojob {
   background-color: rgba(39,39,39,0);
 }
 
@@ -360,6 +365,13 @@ div a.button.home.linkTo.quantSelf:hover {
 
 div a.button.home.linkTo.wasps:hover {
   background-color: rgba(67,42,122,.5);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+div a.button.home.linkTo.hellojob:hover {
+  background-color: rgba(17,98,79,.5);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
@@ -467,8 +479,8 @@ section.nav a.button.wasps {
   background-color: $wasps-primary;
 }
 
-section.nav a.button.google {
-  background-color: $google-primary;
+section.nav a.button.hellojob {
+  background-color: $hello-primary;
 }
 
 section.nav a.button.customer:hover{
@@ -501,6 +513,13 @@ section.nav a.button.quantSelf:hover{
 
 section.nav a.button.wasps:hover{
   background-color: rgba(67,42,122,.8);
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+}
+
+section.nav a.button.hellojob:hover{
+  background-color: rgba(17,98,79,.8);
   transition: background .5s ease-in-out;
   -moz-transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out;
@@ -567,6 +586,15 @@ section.homepage.wasps.isActive {
   transition-delay: .1s;
 }
 
+section.homepage.hellojob.isActive {
+  background-color: $hello-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
 .intro-box {
   position: relative;
   margin-top: -22rem;
@@ -606,9 +634,9 @@ div.intro-box div.columns.small-12.large-10 {
   background-color: $wasps-primary;
 }
 
-.intro-box#google{
+.intro-box#hellojob{
   @extend .intro-box;
-  background-color: $google-primary;
+  background-color: $hello-primary;
 }
 
 .color-section-primary.digiwise {
@@ -646,13 +674,11 @@ div.intro-box div.columns.small-12.large-10 {
 .color-section-primary.wasps {
   background-color: $wasps-primary;
 }
-.color-section-secondary.wasps {
-  background-color: $quantSelf-secondary;
+
+.color-section-primary.hellojob {
+  background-color: $hello-primary;
 }
 
-.color-section-primary.google {
-  background-color: $google-primary;
-}
 
 
 //digiwise TYPOGRAPHY
@@ -792,6 +818,15 @@ a.button.footer.projects.linkTo.wasps:hover {
   transition-delay: .1s;
 }
 
+a.button.footer.projects.linkTo.hellojob:hover {
+  background-color: $hello-primary;
+  transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
 
 a.button.footer.up{
   background-color: $homepage-grey;
@@ -808,10 +843,6 @@ div.interactive h6 {
 }
 div.interactive {
   padding: 0;
-}
-
-a.button.google {
-  background-color: #0F10CC;
 }
 
 //////////////////////////////////////////////////////////////// 4. ANIMATIONS AND IMAGES
@@ -850,8 +881,8 @@ a.button.google {
   background-position: center;
 }
 
-.parallax#google{
-  background-image: url("../assets/GOOG-parallax-cat.jpg");
+.parallax#hellojob{
+  background-image: url("../assets/HJ-parallax.jpg");
   background-position: center;
 }
 
@@ -957,6 +988,10 @@ img.dropshadow {
   max-width: 17.5rem;
   height: auto;
   box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.20);
+}
+
+img.fullWidth {
+  min-width: 100%;
 }
 
 //Drawing
