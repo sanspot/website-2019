@@ -23,35 +23,26 @@ $(document).ready(function() {
       $('section.homepage').removeClass('digiwise');
     });
 
-  $('a.button.home.linkTo.quantSelf').hover(
-    function(){
-      $('section.homepage').addClass('quantSelf isActive');
-    }, function(){
-      $('section.homepage').removeClass('quantSelf');
-    });
+    $('a.button.home.linkTo.quantSelf').hover(
+      function(){
+        $('section.homepage').addClass('quantSelf isActive');
+      }, function(){
+        $('section.homepage').removeClass('quantSelf');
+      });
 
-  $('a.button.home.linkTo.wasps').hover(
-    function(){
-      $('section.homepage').addClass('wasps isActive');
-    }, function(){
-      $('section.homepage').removeClass('wasps');
-    });
+      $('a.button.home.linkTo.wasps').hover(
+        function(){
+          $('section.homepage').addClass('wasps isActive');
+        }, function(){
+          $('section.homepage').removeClass('wasps');
+        });
 
-  $('a.button.home.linkTo.hellojob').hover(
-    function(){
-      $('section.homepage').addClass('hellojob isActive');
-    }, function(){
-      $('section.homepage').removeClass('hellojob');
-    });
-
-  $('section.nav a').hover(
-    function(){
-      $('section.homepage').addClass('customer isActive');
-    }, function(){
-      $('section.homepage').removeClass('customer');
-    });
-
-
+    $('section.nav a').hover(
+      function(){
+        $('section.homepage').addClass('customer isActive');
+      }, function(){
+        $('section.homepage').removeClass('customer');
+      });
     //scroll to top button
     $('a.button.footer.up').click(function(){
       $("html, body").animate({ scrollTop: 0 }, 600);
