@@ -1139,83 +1139,12 @@ div.interactive.wow.shake {
 
 
 
-//////////////////////////////////////////////////////////////// CITYMAPPER STUFF
+//////////////////////////////////////////////////////////////// Maintenance STUFF
 //////////////////////////////////////////////////////////////// ---------
-$citymapper-primary:#37AB2F;
-$citymapper-secondary:#2E9027;
-$citymapper-tertiary:#1B5617;
 
-div.citymapper-wrapper {
-  background-color:$citymapper-primary;
-  padding: 5% 0;
-}
-
-div.citymapper-wrapper h2,
-div.citymapper-wrapper p, {
-  color: $citymapper-tertiary;
-}
-
-div.citymapper-wrapper h6 {
-  color: white;
-}
-
-div.citymapper-wrapper h6 span::before {
-  background-color: white;
-}
-
-
-div.row.citymapper-primary {
-  background-color:$citymapper-primary;
-}
-
-div.row.citymapper-primary div.push {
-  margin-right: 2%;
-}
-
-div.columns.citymapper-secondary {
-  background-color:$citymapper-secondary;
-}
-
-div.row.green-block {
-  border-radius: 16px;
-  background: #2E9027;
-  padding: .6rem;
-  width: 100%;
-  height: auto;
+.maintenance {
+  height: 100vh;
   margin: 0;
-  margin-bottom: 1rem;
-}
-
-div.green-block h2,
-div.green-block p {
-  color: white;
-}
-
-section.citymapperIcons {
-  padding-left: 0;
-  padding-top: 0;
-}
-
-section.citymapperIcons svg{
-  display: block;
-  margin: 0;
-}
-
-svg#pointThingy {
-  position: relative;
-  left:60%;
-  top:-4rem;
-}
-
-div.columns.separator {
-  display: block;
-  margin: auto;
-  margin-bottom: 10%;
-}
-
-img.citymapperImages {
-  padding-top: 5%;
-  max-width: 90%;
-  display: block;
-  margin: auto;
+  padding: 0;
+  background-color: #272727;
 }

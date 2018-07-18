@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     del  = require('del'),
     sequence = require('gulp-sequence'),
     panini = require('panini');
-    browserSync = require('browser-sync').create();
+    //browserSync = require('browser-sync').create();
 
 var sassPaths = [
   'bower_components/foundation-sites/scss',
@@ -27,7 +27,7 @@ gulp.task('clean', function () {
     // we don't want to clean this file though so we negate the pattern
     //'!dist/assets/'
   ])
-  browserSync.reload();
+  //browserSync.reload();
 });
 
 //========================================= Minify SASS
@@ -43,26 +43,26 @@ gulp.task('sass', function() {
       browsers: ['last 2 versions', 'ie >= 9']
     }))
     .pipe(gulp.dest('dist/css'));
-    browserSync.reload();
+    //browserSync.reload();
 });
 //========================================= CopyJS
 gulp.task('copyJS', function(){
  gulp.src(jsPaths)
  .pipe(gulp.dest('dist/js'));
- browserSync.reload();
+ //browserSync.reload();
 });
 //========================================= CopyCSS
 //Copy 'stylesheet.css' into 'dist/css'
 gulp.task('copyCSS', function(){
  gulp.src(cssPaths)
  .pipe(gulp.dest('dist/css'));
- browserSync.reload();
+ //browserSync.reload();
 });
 //========================================= ASSETS
 gulp.task('assets', function(){
  gulp.src('src/assets/*')
  .pipe(gulp.dest('dist/assets'));
- browserSync.reload();
+ //browserSync.reload();
 });
 //========================================= PANINI
 gulp.task('panini', function () {
@@ -89,6 +89,7 @@ gulp.task('default', ['build'], function() {
     gulp.watch(['scss/*.scss'], ['sass']);
     gulp.watch(['css/*.css'], ['copyCSS']);
     gulp.watch(['src/**/*', 'gulpfile.js'], ['build']);
+    /*
     //browser Sync
     browserSync.init({
         server: {
@@ -96,4 +97,5 @@ gulp.task('default', ['build'], function() {
             index: "hellojob.html"
         }
     });
+    */
 });
