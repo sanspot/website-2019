@@ -1,6 +1,3 @@
-# Hellojob update
+# My Website
 
-**Known problem with local files**
-
-- Parallax not loading
-- Green colors not loading either
+**WIP**
