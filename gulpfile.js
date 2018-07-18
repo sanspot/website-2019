@@ -11,8 +11,6 @@ var sassPaths = [
 ];
 
 var jsPaths = [
-  //'bower_components/foundation-sites/dist/foundation.js',
-  //'bower_components/jquery/dist/jquery.js',
   'js/*'
 ];
 
@@ -21,21 +19,20 @@ var cssPaths = [
   'css/*.css'
 ];
 //========================================= CLEAN
-gulp.task('clean', function () {
+gulp.task('clean', function (done) {
   return del([
     'dist/**/*'
     // we don't want to clean this file though so we negate the pattern
     //'!dist/assets/'
   ])
-  //browserSync.reload();
+  done();
 });
 
 //========================================= Minify SASS
-gulp.task('sass', function() {
+gulp.task('sass', function(done) {
   return gulp.src('scss/app.scss')
     .pipe($.sass({
       includePaths: sassPaths,
-      // Right here!
       outputStyle: 'compressed'
     })
       .on('error', $.sass.logError))
@@ -43,29 +40,31 @@ gulp.task('sass', function() {
       browsers: ['last 2 versions', 'ie >= 9']
     }))
     .pipe(gulp.dest('dist/css'));
-    //browserSync.reload();
+    done();
 });
 //========================================= CopyJS
-gulp.task('copyJS', function(){
+gulp.task('copyJS', function(done){
  gulp.src(jsPaths)
  .pipe(gulp.dest('dist/js'));
- //browserSync.reload();
+ done();
 });
+/*
 //========================================= CopyCSS
 //Copy 'stylesheet.css' into 'dist/css'
-gulp.task('copyCSS', function(){
+gulp.task('copyCSS', function(done){
  gulp.src(cssPaths)
  .pipe(gulp.dest('dist/css'));
- //browserSync.reload();
+ done();
 });
+*/
 //========================================= ASSETS
-gulp.task('assets', function(){
+gulp.task('assets', function(done){
  gulp.src('src/assets/*')
  .pipe(gulp.dest('dist/assets'));
- //browserSync.reload();
+ done();
 });
 //========================================= PANINI
-gulp.task('panini', function () {
+gulp.task('panini', function (done) {
     return gulp.src('src/pages/*.html')
         .pipe(panini({
           root: 'src/pages/',
@@ -75,27 +74,19 @@ gulp.task('panini', function () {
           data: 'src/data/'
         }))
         .pipe(gulp.dest('dist'));
+
+      done();
 });
 
 //========================================= BUILD
 gulp.task('build', function(done) {
-    sequence('clean', 'sass', 'copyCSS', 'copyJS', 'assets', 'panini', done);
+    sequence('clean', 'sass', 'copyJS', 'assets', 'panini', done);
 });
 
 
 //========================================= DEFAULT
 gulp.task('default', ['build'], function() {
-    //gulp.watch(['scss/*.scss', 'src/**/*', 'css/*.css', 'gulpfile.js'], ['build']);
     gulp.watch(['scss/*.scss'], ['sass']);
     gulp.watch(['css/*.css'], ['copyCSS']);
     gulp.watch(['src/**/*', 'gulpfile.js'], ['build']);
-    /*
-    //browser Sync
-    browserSync.init({
-        server: {
-            baseDir: "./dist/",
-            index: "hellojob.html"
-        }
-    });
-    */
 });
