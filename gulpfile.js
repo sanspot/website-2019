@@ -27,7 +27,7 @@ gulp.task('clean', function () {
     // we don't want to clean this file though so we negate the pattern
     //'!dist/assets/'
   ])
-  browserSync.reload();
+  //browserSync.reload();
 });
 
 //========================================= Minify SASS
@@ -43,26 +43,26 @@ gulp.task('sass', function() {
       browsers: ['last 2 versions', 'ie >= 9']
     }))
     .pipe(gulp.dest('dist/css'));
-    browserSync.reload();
+    //browserSync.reload();
 });
 //========================================= CopyJS
 gulp.task('copyJS', function(){
  gulp.src(jsPaths)
  .pipe(gulp.dest('dist/js'));
- browserSync.reload();
+ //browserSync.reload();
 });
-//========================================= CopyCSS
-//Copy 'stylesheet.css' into 'dist/css'
-gulp.task('copyCSS', function(){
- gulp.src(cssPaths)
- .pipe(gulp.dest('dist/css'));
- browserSync.reload();
-});
+////========================================= CopyCSS
+////Copy 'stylesheet.css' into 'dist/css'
+//gulp.task('copyCSS', function(){
+// gulp.src(cssPaths)
+// .pipe(gulp.dest('dist/css'));
+// browserSync.reload();
+//});
 //========================================= ASSETS
 gulp.task('assets', function(){
  gulp.src('src/assets/*')
  .pipe(gulp.dest('dist/assets'));
- browserSync.reload();
+ //browserSync.reload();
 });
 //========================================= PANINI
 gulp.task('panini', function () {
@@ -79,7 +79,7 @@ gulp.task('panini', function () {
 
 //========================================= BUILD
 gulp.task('build', function(done) {
-    sequence('clean', 'sass', 'copyCSS', 'copyJS', 'assets', 'panini', done);
+    sequence('clean', 'sass', 'copyJS', 'assets', 'panini', done);
 });
 
 
@@ -89,11 +89,11 @@ gulp.task('default', ['build'], function() {
     gulp.watch(['scss/*.scss'], ['sass']);
     gulp.watch(['css/*.css'], ['copyCSS']);
     gulp.watch(['src/**/*', 'gulpfile.js'], ['build']);
-    //browser Sync
-    browserSync.init({
-        server: {
-            baseDir: "./dist/",
-            index: "hellojob.html"
-        }
-    });
+//    //browser Sync
+//    browserSync.init({
+//        server: {
+//            baseDir: "./dist/",
+//            index: "hellojob.html"
+//        }
+//    });
 });
