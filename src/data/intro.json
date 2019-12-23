@@ -5,7 +5,8 @@
     "customer-activation":"customer-activation",
     "quantSelf":"quantSelf",
     "wasps":"wasps",
-    "hellojob":"hellojob"
+    "hellojob":"hellojob",
+    "thriva":"thriva"
   },
 
 
@@ -68,12 +69,22 @@
     "body":"While based in Kigali, Rwanda, I helped an entrepeneur with his budding venture. The output of the project was a series of strategic deliveries supported by a proof of concept (UX and UI).<br/> It was an  individual project that was run in parallel to other twos, over the course of three weeks."
   },
 
+  "thrivaRole":{
+    "role":"Design <br/> UX research"
+  },
+  "thriva":{
+    "colour":"hellojob",
+    "title":"Designing a new test result experience for Thriva",
+    "body":"As the service grows in features and capabilites, the  test result experience of our customer went through a series of incremental changes. Over the course of a few months we introduced new, more precise test ranges, improved information architecture, visual information and added new features and content."
+  },
+
   "typeOfProject": {
     "typeOfProject-digital":"Service design sprint",
     "typeOfProject-customer":"Internal project",
     "typeOfProject-digiwise":"Design sprint",
     "typeOfProject-quantSelf":"Personal project",
     "typeOfProject-wasps":"Design and prototyping",
-    "typeOfProject-hellojob":"Strategy and design"
+    "typeOfProject-hellojob":"Strategy and design",
+    "typeOfProject-thriva":"Product design"
   }
 }
